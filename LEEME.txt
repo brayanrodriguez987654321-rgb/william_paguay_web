@@ -1,0 +1,29 @@
+SITIO WEB - MSc. William Paguay C.
+
+ARCHIVOS:
+- index.html: página principal
+- servicios.html: servicios jurídicos
+- citas.html: formulario de solicitud de cita
+- contacto.html: datos de contacto y formulario
+- ubicacion.html: dirección y mapa
+- css/estilos.css: estilos generales y responsive
+- js/funciones.js: menú móvil y formularios
+- img/marca-william-paguay.png: imagen de marca proporcionada
+
+CÓMO ABRIR:
+1. Descomprime la carpeta.
+2. Abre la carpeta WILLIAM-PAGUAY-WEB en Visual Studio Code.
+3. Abre index.html con Live Server (recomendado) o en el navegador.
+4. Navega usando el menú superior.
+
+FUNCIONAMIENTO:
+- Las solicitudes de cita y consultas preparan un mensaje y abren WhatsApp al número +593 98 035 9510.
+- El usuario debe pulsar Enviar dentro de WhatsApp.
+- La solicitud no confirma automáticamente una cita.
+- El mapa y el enlace de indicaciones abren Google Maps.
+- No se incluyó correo electrónico porque no fue proporcionado.
+
+PENDIENTE DE VALIDACIÓN:
+- Confirmar las áreas de especialización y servicios concretos del despacho.
+- Confirmar el punto exacto del mapa y, si se desea, el horario de atención.
+- Para almacenar reservas en una base de datos o enviar confirmaciones automáticas se requiere integrar un backend o plataforma de formularios.

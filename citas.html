@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MSc. William Paguay C. - Defendemos tus derechos. Servicios y asesoría jurídica en Tulcán, Ecuador.">
+  <title>Reservar cita | MSc. William Paguay C.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="MSc. William Paguay C., inicio">
+      <img src="img/marca-william-paguay.png" alt="Marca gráfica de MSc. William Paguay C.">
+      <span><span class="brand-name">MSc. William <span>Paguay C.</span></span><small>Defendemos tus derechos</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="citas.html" class="active">Reservar cita</a>
+      <a href="ubicacion.html">Ubicación</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <a class="nav-cta" href="citas.html" class="active">Agendar asesoría ↗</a>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero"><div class="container"><div class="breadcrumb">Inicio / Reservar cita</div><div class="eyebrow">Agenda tu atención</div><h1>Reserva una <span>cita.</span></h1><p>Completa tus datos y envía tu solicitud por WhatsApp.</p></div></section>
+<section class="section"><div class="container">
+ <div class="split" style="align-items:start">
+  <div><div class="eyebrow">Solicitud de atención</div><h2>Coordinemos un espacio para <span>escucharte.</span></h2>
+   <p>Indica tus datos y una fecha tentativa. La solicitud se abrirá en WhatsApp para que puedas enviarla directamente al despacho.</p>
+   <ul class="info-list"><li><strong>Teléfono / WhatsApp</strong>+593 98 035 9510</li><li><strong>Ubicación</strong>Complejo Judicial de Tulcán, calle Sucre y Ayacucho</li></ul>
+   <p class="notice">Enviar el formulario no confirma automáticamente la cita. El despacho deberá verificar y confirmar la disponibilidad.</p>
+  </div>
+  <form class="form-card" id="appointment-form">
+   <div class="form-grid">
+    <div class="field full"><label for="nombre">Nombres y apellidos *</label><input id="nombre" name="nombre" required placeholder="Tu nombre completo"></div>
+    <div class="field"><label for="telefono">Teléfono *</label><input id="telefono" name="telefono" type="tel" required placeholder="Tu número de contacto"></div>
+    <div class="field"><label for="servicio">Tipo de asesoría *</label><select id="servicio" name="servicio" required><option value="">Selecciona una opción</option><option>Asesoría jurídica</option><option>Orientación legal</option><option>Consulta personalizada</option><option>Otra consulta</option></select></div>
+    <div class="field"><label for="fecha">Fecha solicitada</label><input id="fecha" name="fecha" type="date"></div>
+    <div class="field"><label for="hora">Hora preferida</label><input id="hora" name="hora" type="time"></div>
+    <div class="field full"><label for="motivo">Cuéntanos brevemente el motivo de tu consulta</label><textarea id="motivo" name="motivo" placeholder="Escribe aquí una breve descripción..."></textarea></div>
+   </div>
+   <p class="form-note">* Campos obligatorios. Evita incluir información confidencial o documentos sensibles en este primer mensaje.</p>
+   <button class="btn" type="submit">Enviar solicitud por WhatsApp ↗</button>
+   <p id="form-status" aria-live="polite" class="form-note"></p>
+  </form>
+ </div>
+</div></section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">MSc. William <span>Paguay C.</span></div>
+        <p>Defendemos tus derechos. Atención y orientación jurídica con compromiso y responsabilidad.</p>
+      </div>
+      <div><strong>Explora</strong><div class="footer-links">
+        <a href="servicios.html">Servicios jurídicos</a><a href="citas.html">Reservar una cita</a>
+        <a href="ubicacion.html">Cómo llegar</a><a href="contacto.html">Contáctanos</a>
+      </div></div>
+      <div><strong>Información</strong><p>Complejo Judicial de Tulcán<br>Calle Sucre y Ayacucho</p>
+        <p><a href="https://wa.me/593980359510" target="_blank" rel="noopener">+593 98 035 9510</a></p>
+      </div>
+    </div>
+    <div class="copyright">© 2026 MSc. William Paguay C. · Todos los derechos reservados.</div>
+  </div>
+</footer>
+<a class="whatsapp-float" href="https://wa.me/593980359510?text=Hola%2C%20deseo%20informaci%C3%B3n%20sobre%20sus%20servicios%20jur%C3%ADdicos." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">WhatsApp ↗</a>
+<script src="js/funciones.js"></script>
+
+</body>
+</html>
